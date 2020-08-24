@@ -1,12 +1,12 @@
-appnope @ file:///opt/concourse/worker/volumes/live/0291c9e1-4b15-459f-623e-2770f55be269/volume/appnope_1594338395037/work
-argon2-cffi @ file:///opt/concourse/worker/volumes/live/59af29ac-4890-416e-7ab7-794f8d6f7ecd/volume/argon2-cffi_1596828548321/work
+appnope 
+argon2-cffi 
 attrs==19.3.0
 backcall==0.2.0
 bleach==3.1.5
 blurhash==1.1.4
 boost==0.1
 certifi==2020.6.20
-cffi @ file:///opt/concourse/worker/volumes/live/7232682c-ed09-452c-5a23-d23e8506f71f/volume/cffi_1596809958572/work
+cffi
 chardet==3.0.4
 click==7.1.2
 cmake==3.18.0
@@ -16,36 +16,30 @@ dlib==19.21.0
 entrypoints==0.3
 Flask==1.1.2
 idna==2.10
-importlib-metadata @ file:///opt/concourse/worker/volumes/live/290b74d5-e5f3-47ff-7257-17b3c9ccecab/volume/importlib-metadata_1593446478206/work
+importlib-metadata
 imutils==0.5.3
-ipykernel @ file:///opt/concourse/worker/volumes/live/88f541d3-5a27-498f-7391-f2e50ca36560/volume/ipykernel_1596206680118/work/dist/ipykernel-5.3.4-py3-none-any.whl
-ipython @ file:///opt/concourse/worker/volumes/live/4d752765-7865-43b6-6171-9e1bf9625529/volume/ipython_1596868525616/work
+ipykernel
+ipython
 ipython-genutils==0.2.0
 itsdangerous==1.1.0
-jedi @ file:///opt/concourse/worker/volumes/live/c63c70ef-654a-4d26-6b78-37aef096f225/volume/jedi_1596490811751/work
+jedi
 Jinja2==2.11.2
-jsonschema @ file:///opt/concourse/worker/volumes/live/143dedb7-a810-4064-6e47-436d4dbcc943/volume/jsonschema_1594363611216/work
-jupyter-client @ file:///tmp/build/80754af9/jupyter_client_1594826976318/work
+jsonschema
 jupyter-core==4.6.3
-MarkupSafe @ file:///opt/concourse/worker/volumes/live/cb778296-98db-45ad-411e-6f726e102dc3/volume/markupsafe_1594371638608/work
+MarkupSafe
 Mastodon.py==1.5.1
-mistune @ file:///opt/concourse/worker/volumes/live/95802d64-d39c-491b-74ce-b9326880ca54/volume/mistune_1594373201816/work
-nb-conda==2.2.1
-nb-conda-kernels==2.2.3
-nbconvert @ file:///opt/concourse/worker/volumes/live/70406b39-619d-477e-7507-0cc36a02f91a/volume/nbconvert_1594376816864/work
-nbformat==5.0.7
-notebook @ file:///opt/concourse/worker/volumes/live/3ff7115c-cc67-4f6b-6e2e-c0806c78c21d/volume/notebook_1596838654712/work
+mistune
 numpy==1.19.1
 opencv-contrib-python==4.4.0.42
 packaging==20.4
 pandocfilters==1.4.2
 parso==0.7.0
-pexpect @ file:///opt/concourse/worker/volumes/live/8701bb20-ad87-46c7-5108-30c178cf97e5/volume/pexpect_1594383388344/work
-pickleshare @ file:///opt/concourse/worker/volumes/live/93ec39d8-05bb-4f84-7efc-98735bc39b70/volume/pickleshare_1594384101884/work
+pexpect
+pickleshare
 prometheus-client==0.8.0
 prompt-toolkit==3.0.5
 ptyprocess==0.6.0
-pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pycparser
 Pygments==2.6.1
 pync==2.0.3
 pyparsing==2.4.7
@@ -64,7 +58,7 @@ testpath==0.4.4
 tornado==6.0.4
 traitlets==4.3.3
 urllib3==1.25.10
-wcwidth @ file:///tmp/build/80754af9/wcwidth_1593447189090/work
+wcwidth
 webencodings==0.5.1
 Werkzeug==1.0.1
 zipp==3.1.0
