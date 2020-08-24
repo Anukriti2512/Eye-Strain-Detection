@@ -16,6 +16,7 @@ dlib==19.21.0
 entrypoints==0.3
 Flask==1.1.2
 gunicorn
+Gevent
 idna==2.10
 importlib-metadata
 imutils==0.5.3

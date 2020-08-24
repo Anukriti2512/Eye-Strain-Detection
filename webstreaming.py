@@ -22,7 +22,7 @@ timediff = datetime.datetime.now()
 
 # eye aspect ratio to indicate blink and
 # range of consecutive frames the eye must be below the threshold
-EYE_AR_THRESH = 0.20
+EYE_AR_THRESH = 0.22
 EYE_AR_CONSEC_FRAMES_MIN = 2
 EYE_AR_CONSEC_FRAMES_MAX = 5
 
@@ -57,7 +57,7 @@ def detect_blinks():
 		gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
 		if(time_interval_passed()):
-			if(totalBlinks < 15):
+			if(totalBlinks < 12):
 				Notifier.notify()
 			totalBlinks = 0
 
