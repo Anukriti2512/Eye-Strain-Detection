@@ -1,0 +1,6 @@
+__pycache__/
+Blink_detector/__pycache__/
+.DS_Store
+static/.DS_Store
+templates/.DS_Store
+Blink_detection/.DS_Store
